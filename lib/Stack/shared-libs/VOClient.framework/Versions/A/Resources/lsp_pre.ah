@@ -1,0 +1,14 @@
+/*************************************************************************
+**      ____________________________
+**      \   	G.729 CODEC   	    \
+**       \                 	     \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: lsp_expand.ah
+** 
+** Copyright 2000 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+
+void lsp_pre_select_kod(SHORT *, SHORT lsp_cb1[][M], SHORT *);
+

@@ -1,0 +1,18 @@
+/*************************************************************************
+**      ____________________________
+**      \   	G.729 CODEC   	    \
+**       \                 	     \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: pitch_kod.ah
+** 
+** Copyright 2000 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+LONG L_ener2_kod (SHORT *signal, SHORT len, SHORT *overflow);
+LONG L_ener1_kod (SHORT *signal, SHORT len, SHORT *overflow);
+LONG Cross_ener_kod (SHORT *signal1, SHORT *signal2,SHORT len);
+LONG Cross_ener_sw_kod (SHORT *signal1, SHORT *signal2,SHORT len);
+LONG Dot_prod2_kod (SHORT *input1, SHORT *input2, SHORT len);
+LONG Pitch_search1_2_kod (SHORT *signal, SHORT *idx, LONG section);
+LONG Pitch_search3_kod (SHORT *signal, SHORT *idx);

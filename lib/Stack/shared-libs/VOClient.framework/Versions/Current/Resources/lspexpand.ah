@@ -1,0 +1,15 @@
+/*************************************************************************
+**      ____________________________
+**      \   	G.729 CODEC   	    \
+**       \                 	     \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: lspexpand.ah
+** 
+** Copyright 2000 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+void Lsp_expand_1_2_kod(
+  SHORT buf[],        /* (i/o) Q13 : LSP vectors */
+  SHORT gap           /* (i)   Q13 : gap         */
+)

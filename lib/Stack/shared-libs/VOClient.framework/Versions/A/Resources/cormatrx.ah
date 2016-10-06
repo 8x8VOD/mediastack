@@ -1,0 +1,12 @@
+/*************************************************************************; 
+**      ____________________________
+**      \   	G.729 CODEC	     \
+**       \                 	      \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: cormatrx.ah
+** 
+** Copyright 2000 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+void Cor_matrix_kod(SHORT *x, SHORT *h, LONG *output, LONG *max); 

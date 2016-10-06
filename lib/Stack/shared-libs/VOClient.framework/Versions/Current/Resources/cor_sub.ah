@@ -1,0 +1,74 @@
+/*************************************************************************; 
+**      ____________________________
+**      \   	G.729 CODEC	     \
+**       \                 	      \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: cor_sub.ah
+** 
+** Copyright 2000 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+void Cor_scale_h_kod(
+  SHORT H[],
+  SHORT h[]
+);
+
+void Cor_repeat_h_kod(
+  SHORT h[],
+  SHORT hRepeat[]
+);
+
+void Cor_sub3_4_kod(
+  SHORT hRepeat[],
+  SHORT *rr
+);
+
+void Cor_sub2_5_kod(
+  SHORT hRepeat[],
+  SHORT *rr
+);
+
+void Cor_sub1_kod(
+  SHORT h[],
+  SHORT *rr0,
+  SHORT *rr1,
+  SHORT *rr2,
+  SHORT *rr3,
+  SHORT *rr4
+);
+
+void Cor_sub2_kod(
+  SHORT h[],
+  SHORT *rr0,
+  SHORT *rr1,
+  SHORT *rr2,
+  SHORT *rr3
+);
+
+void Cor_sub3_kod(
+  SHORT h[],
+  SHORT *rri2i4,
+  SHORT *rri1i3, 
+  SHORT *rri0i2, 
+  SHORT *rri1i4,
+  SHORT *rri0i3
+);
+
+void Cor_sub4_kod(
+  SHORT h[],
+  SHORT *rr0,
+  SHORT *rr1,
+  SHORT *rr2,
+  SHORT *rr3,
+  SHORT *rr4
+
+);
+
+void Cor_sub5_kod(
+  SHORT h[],
+  SHORT *rr0,
+  SHORT *rr1,
+  SHORT *rr2,
+  SHORT *rr3
+);

@@ -1,0 +1,35 @@
+/*************************************************************************
+**      ____________________________
+**      \   	G.729 CODEC   	    \
+**       \                 	     \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: pit_sub.ah
+** 
+** Copyright 2000 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+
+void pit_sub_kod(
+  SHORT L_subfr,            
+  SHORT t0,                
+  SHORT g0,              
+  SHORT gain,       
+  SHORT *signal,
+  SHORT *signal_pst              
+);
+
+void pit_sub2_kod(
+  SHORT t0_min, 
+  SHORT t0_max, 
+  SHORT L_subfr, 
+  SHORT *scal_sig, 
+  SHORT *deb_sig,
+  LONG t0,
+  LONG cor_max
+);
+
+
+
+
+

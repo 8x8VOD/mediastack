@@ -1,0 +1,12 @@
+/*************************************************************************; 
+**      ____________________________
+**      \   	G.729 CODEC	     \
+**       \                 	      \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: acelp_accel.ah
+** 
+** Copyright 2006 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+void acelp_format_impulse_T2(SHORT *psH, SHORT sT0, SHORT sSharp, SHORT sLen);

@@ -1,0 +1,32 @@
+/*************************************************************************
+**      ____________________________
+**      \   	G.729 CODEC   	    \
+**       \                 	     \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: lsp_prev.ah
+** 
+** Copyright 2000 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+void Lsp_prev_compose_kod(
+  SHORT lsp_ele[],             /* Q13 */
+  SHORT lsp[],                 /* Q13 */
+  SHORT _fg[][M],              /* Q15 */
+  SHORT freq_prev[][M],        /* Q13 */
+  SHORT _fg_sum[]              /* Q15 */
+);
+
+void Lsp_prev_extract_kod(
+  SHORT lsp[M],                 /* Q13 */
+  SHORT lsp_ele[M],             /* Q13 */
+  SHORT _fg[MA_NP][M],          /* Q15 */
+  SHORT freq_prev[MA_NP][M],    /* Q13 */
+  SHORT _fg_sum_inv[M]          /* Q12 */
+);
+
+void Lsp_prev_update_kod(
+  SHORT lsp_ele[M],             /* Q13 */
+  SHORT freq_prev[MA_NP][M]     /* Q13 */
+);
+

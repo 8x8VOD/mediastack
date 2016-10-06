@@ -1,0 +1,16 @@
+/*************************************************************************
+**      ____________________________
+**      \   	G.729 CODEC   	\
+**       \                 		 \
+**        \  Netergy Networks, Inc.   \
+**         ----------------------------
+** File name: arraysh.ah
+** 
+** Copyright 2000 Netergy Networks, Inc.
+** All rights reserved 
+****************************************************************************/
+
+void Array_shr_kod(SHORT *input, SHORT *output, SHORT length, SHORT shift);
+void Array_shl_kod(SHORT *input, SHORT *output, SHORT length, SHORT shift);
+void Copy_kod(SHORT *input, SHORT *output, SHORT length);
+void Array_shr_extract_l_kod(LONG *input, SHORT *output, SHORT length,SHORT shift);
